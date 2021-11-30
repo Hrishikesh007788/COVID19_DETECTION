@@ -13,7 +13,7 @@ A possible solution would be to create a Deep Learning model which would predict
 
 ## Data Description:
 
-Dataset available in kaggle: [Link](https://www.kaggle.com/elikplim/concrete-compressive-strength-data-set)
+Dataset : [Link](http://cb.lk/covid_19)
 
 Data Characteristics:
 The Dataset contains images of Positive and Negative chest X-Ray images in AP view.
@@ -21,21 +21,21 @@ The Dataset contains images of Positive and Negative chest X-Ray images in AP vi
 ## Project Tree Structure
 ```
  .
-├── Images
-    ├── ineuron-logo.png
-├── src
-     ├── model_creation.py
-     ├── preprocessing.py
-├── Concrete Compressive Strength Prediction.ipynb
-├── Procfile
-├── app.py
-├── reports
-├── concrete_data.csv
-├── requirements.txt
+├── Sample_Images
+    ├── Covid
+    ├── Normal
+├── static
+     ├── css
+     ├── js
 ├── templates
-├── setup.sh
-├── strength.pkl
-└── README.md
+     ├── base.html
+     ├── index.html
+├── Uploads
+├── COVID19_Detector.ipynb
+├── README.md
+├── app.yaml
+├── main.py
+└── requirements.txt
 ```
 
 ## Tools used:
