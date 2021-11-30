@@ -5,39 +5,18 @@
 
 ## Problem Statement:
 
-The quality of concrete is determined by its compressive strength, which is measured
-using a conventional crushing test on a concrete cylinder. The strength of the concrete
-is also a vital aspect in achieving the requisite longevity. It will take 28 days to test
-strength, which is a long period. So, what will we do now? We can save a lot of time and
-effort by using Data Science to estimate how much quantity of which raw material we
-need for acceptable compressive strength.
+There are a total of 26Cr Covid positive cases worldwide and is increasing. Performing Covid test requires blood samples and nose swab samples which can be expensive, time consuming and uncomfortable for many of the patients. 
 
 ## Proposed Solution:
 
-A possible solution would be to create a Machine Learning model which would predict the compressive strength of the concrete given the quantity of the ingredients.  
+A possible solution would be to create a Deep Learning model which would predict if the person is infected by covid19 by analysing an AP(anteroposterior) view of his/her chest X-Ray image.
 
 ## Data Description:
 
 Dataset available in kaggle: [Link](https://www.kaggle.com/elikplim/concrete-compressive-strength-data-set)
 
-Sources:
-Original Owner and Donor
-Prof. I-Cheng Yeh
-Department of Information Management
-Chung-Hua University,
-Hsin Chu, Taiwan 30067, R.O.C.
-e-mail:icyeh@chu.edu.tw
-TEL:886-3-5186511
-Date Donated: August 3, 2007
-
 Data Characteristics:
-The actual concrete compressive strength (MPa) for a given mixture under a
-specific age (days) was determined from laboratory. Data is in raw form (not scaled).
-Summary Statistics:
-Number of instances (observations): 1030
-Number of Attributes: 9
-Attribute breakdown: 8 quantitative input variables, and 1 quantitative output variable
-Missing Attribute Values: None
+The Dataset contains images of Positive and Negative chest X-Ray images in AP view.
 
 ## Project Tree Structure
 ```
@@ -64,16 +43,10 @@ Missing Attribute Values: None
 - Programming language : Python
 - IDE : Visual Studio Code
 - Visualization : Matplotlib and Seaborn
-- Deployment platform : Heroku
 - Front end development : HTML/CSS
-- Back end development : Streamlit
+- Back end development : Flask
 - Version control system : GitHub
 
-## Web App:
-
-Web App Link: https://compressive-strength-concrete.herokuapp.com
-
-In this web app, we just need to enter the amount of ingredients and the model will give a prediction on the compressive strength of the concrete if made with those amount of ingredients.
 
 ## Creator:
 
